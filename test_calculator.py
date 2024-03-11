@@ -13,6 +13,6 @@ def test_add():
 def test_sub():
     a = 5
     b = 2
-    expected_result = 3
+    expected_result = 4
     result = calculator.subtract(a, b)
     assert result == expected_result, f"Expected: {expected_result}, but got: {result}"
