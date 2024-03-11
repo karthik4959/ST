@@ -27,6 +27,6 @@ def test_mult():
 def test_div():
     a = 4
     b = 2
-    expected_result = 1
+    expected_result = 2
     result = calculator.divide(a, b)
     assert result == expected_result, f"Expected: {expected_result}, but got: {result}"
