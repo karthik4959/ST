@@ -3,7 +3,7 @@ from calculator import Calculator
 calculator = Calculator()
 
 
-def test_add(a, b, expected_result):
+def test(a, b, expected_result):
     result = calculator.add(a, b)
     if result == expected_result:
         print("Addition test passed")
@@ -11,4 +11,4 @@ def test_add(a, b, expected_result):
         raise ValueError("Addition test failed. Expected:", expected_result, "but got:", result)
 
 
-test_add(2, 3, 55)
+test(2, 3, 5)
