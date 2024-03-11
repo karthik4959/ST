@@ -13,4 +13,4 @@ class Calculator:
     def divide(self, x, y):
         if y == 0:
             raise ValueError("Cannot divide by zero")
-        return """ no return statement in the method"""
+        return x / y
