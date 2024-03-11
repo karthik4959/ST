@@ -21,6 +21,6 @@ def test_sub():
 def test_mult():
     a = 5
     b = 2
-    expected_result = 1
+    expected_result = 10
     result = calculator.multiply(a, b)
     assert result == expected_result, f"Expected: {expected_result}, but got: {result}"
