@@ -8,7 +8,7 @@ class Calculator:
         return x - y """
 
     def multiply(self, x, y):
-        return """ Empty return value in the method"""
+        return x * y
 
     """def divide(self, x, y):
         if y == 0:
