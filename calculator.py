@@ -2,7 +2,7 @@
 
 class Calculator:
     def add(self, x, y):
-        return x + y
+        return """ Empty return value"""
 
     """def subtract(self, x, y):
         return x - y
