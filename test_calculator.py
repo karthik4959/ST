@@ -3,13 +3,9 @@ from calculator import Calculator
 calculator = Calculator()
 
 
-def test(a, b, expected_result):
+def test_add():
+    a = 2
+    b = 3
+    expected_result = 5
     result = calculator.add(a, b)
-    if result == expected_result:
-        print("Addition test passed")
-    else:
-        raise ValueError("Addition test failed. Expected:", expected_result, "but got:", result)
-
-
-test(4, 2, 6)
-""" correct expected out put the build will pass"""
+    assert result == expected_result, f"Expected: {expected_result}, but got: {result}"
