@@ -11,5 +11,5 @@ def test(a, b, expected_result):
         raise ValueError("Addition test failed. Expected:", expected_result, "but got:", result)
 
 
-test(4, 3, 7)
+test(4, 2, 6)
 """ correct expected out put the build will pass"""
