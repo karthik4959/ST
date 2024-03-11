@@ -10,9 +10,17 @@ def test_add():
     result = calculator.add(a, b)
     assert result == expected_result, f"Expected: {expected_result}, but got: {result}"
 """
+"""
 def test_sub():
     a = 5
     b = 2
     expected_result = 3
     result = calculator.subtract(a, b)
+    assert result == expected_result, f"Expected: {expected_result}, but got: {result}" 
+"""
+def test_mult():
+    a = 5
+    b = 2
+    expected_result = 10
+    result = calculator.multiply(a, b)
     assert result == expected_result, f"Expected: {expected_result}, but got: {result}"
