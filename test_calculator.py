@@ -2,7 +2,7 @@ from calculator import Calculator
 
 calculator = Calculator()
 
-"""
+
 def test_add():
     a = 2
     b = 3
@@ -23,7 +23,7 @@ def test_mult():
     expected_result = 10
     result = calculator.multiply(a, b)
     assert result == expected_result, f"Expected: {expected_result}, but got: {result}"
-"""
+
 def test_div():
     a = 4
     b = 2
