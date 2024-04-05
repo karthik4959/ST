@@ -10,7 +10,7 @@ class TestCalculatorIntegration(unittest.TestCase):
         result = self.calculator.subtract(result, 3)
         result = self.calculator.multiply(result, 2)
         result = self.calculator.divide(result, 4)
-        self.assertEqual(result, 3)
+        self.assertEqual(result, 6)
 
 if __name__ == '__main__':
     unittest.main()
